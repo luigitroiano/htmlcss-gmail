@@ -1,5 +1,8 @@
 body{
   background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.container{
   box-sizing: border-box;
   margin: 1% 5%;
 }
@@ -7,9 +10,11 @@ body{
 header{
   padding-left: 3px;
 }
+
 .titolo{
   display: inline-block;
   margin-bottom: 3px;
+  color: white;
 }
 
 hr{
@@ -25,6 +30,11 @@ button{
   border-width: thin;
 }
 
+#unread{
+  color: white;
+  font-weight: normal;
+}
+
 #messages_unread{
   background-color: orange;
   border-radius: 50%;
@@ -33,6 +43,11 @@ button{
 
 .email_read{
   background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.email_unread{
+  background-color: white;
   border: 1px solid black;
 }
 

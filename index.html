@@ -6,84 +6,88 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!--Intestazione-->
-    <header>
-      <img src="img/gmail_logo.png" alt="logo Gmail">
-      <h2 class="titolo">Gmail</h2>
-    </header>
-    <hr>
-    <!--/Intestazione-->
+    <div class="container">
 
-    <!--Unread-->
-    <section>
-      <input id="search_bar"type="search" name="" value="" placeholder="Search">
-      <button type="button" name="button">VAI</button>
-    </section>
 
-    <section>
-      <h1 id="unread">You have <span id="messages_unread">30</span> unread</h1>
-    </section>
-    <hr>
-    <!--/Unread-->
+      <!--Intestazione-->
+      <header>
+        <img src="img/gmail_logo.png" alt="logo Gmail">
+        <h2 class="titolo">Gmail</h2>
+      </header>
+      <hr>
+      <!--/Intestazione-->
 
-    <!--Corpo principale del sito-->
-    <main>
-      <div class="email_read">
-        <div class="object">
-          <input type="checkbox">
-          <span>&#9733;</span>
-          <span><strong>Oggetto della email</strong></span>
-        </div>
-        <span>-</span>
-        <div class="subject">
-          <span>testo della email...</span>
-        </div>
-      </div>
+      <!--Unread-->
+      <section>
+        <input id="search_bar" type="search" placeholder="Search">
+        <button type="button" name="button">VAI</button>
+      </section>
 
-      <div class="email_read">
-        <div class="object">
-          <input type="checkbox">
-          <span>&#9733;</span>
-          <span><strong>Oggetto della email</strong></span>
-        </div>
-        <span>-</span>
-        <div class="subject">
-          <span>testo della email...</span>
-        </div>
-      </div>
+      <section>
+        <h1 id="unread">You have <span id="messages_unread">30</span> unread</h1>
+      </section>
+      <hr>
+      <!--/Unread-->
 
-      <div class="email_read">
-        <div class="object">
-          <input type="checkbox">
-          <span>&#9733;</span>
-          <span><strong>Oggetto della email</strong></span>
+      <!--Corpo principale del sito-->
+      <main>
+        <div class="email_read">
+          <div class="object">
+            <input type="checkbox">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della email</strong></span>
+          </div>
+          <span>-</span>
+          <div class="subject">
+            <span>testo della email...</span>
+          </div>
         </div>
-        <span>-</span>
-        <div class="subject">
-          <span>testo della email...</span>
-        </div>
-      </div>
 
-      <div class="email_read">
-        <div class="object">
-          <input type="checkbox">
-          <span>&#9733;</span>
-          <span><strong>Oggetto della email</strong></span>
+        <div class="email_unread">
+          <div class="object">
+            <input type="checkbox">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della email</strong></span>
+          </div>
+          <span>-</span>
+          <div class="subject">
+            <span>testo della email...</span>
+          </div>
         </div>
-        <span>-</span>
-        <div class="subject">
-          <span>testo della email...</span>
-        </div>
-      </div>
-    </main>
-    <hr>
-    <!--/Corpo principale del sito-->
 
-    <!--Piè di pagina-->
-    <footer id="footer">
-      <span id="gmailfooter">GMail</span>
-      <span><em>powered by Gigi</em></span>
-    </footer>
-    <!--/Piè di pagina-->
+        <div class="email_read">
+          <div class="object">
+            <input type="checkbox">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della email</strong></span>
+          </div>
+          <span>-</span>
+          <div class="subject">
+            <span>testo della email...</span>
+          </div>
+        </div>
+
+        <div class="email_read">
+          <div class="object">
+            <input type="checkbox">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della email</strong></span>
+          </div>
+          <span>-</span>
+          <div class="subject">
+            <span>testo della email...</span>
+          </div>
+        </div>
+      </main>
+      <hr>
+      <!--/Corpo principale del sito-->
+
+      <!--Piè di pagina-->
+      <footer id="footer">
+        <span id="gmailfooter">GMail</span>
+        <span><em>powered by Gigi</em></span>
+      </footer>
+      <!--/Piè di pagina-->
+    </div>
   </body>
 </html>
