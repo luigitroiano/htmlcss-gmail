@@ -46,3 +46,13 @@ button{
   width: 63%;
   color: grey;
 }
+
+#footer{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#gmailfooter{
+  font-size: 26px;
+}
