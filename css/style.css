@@ -30,3 +30,19 @@ button{
   border-radius: 50%;
   padding: 10px;
 }
+
+.email_read{
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.object{
+  display: inline-block;
+  width: 15%;
+}
+
+.subject{
+  display: inline-block;
+  width: 63%;
+  color: grey;
+}
