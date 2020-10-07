@@ -1,3 +1,14 @@
 body{
   background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  box-sizing: border-box;
+  margin: 1% 5%;
+}
+
+.titolo{
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+hr{
+  color: white;
 }
